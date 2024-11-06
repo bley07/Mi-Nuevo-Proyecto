@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FORMULARIO LAB</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>FORMULARIO DE EVENTOS </h1>
+  </header>
+  <form action="">
+      <fieldset>
+        <label for="name">Nombre</label>
+        <input type="text" id="name" required>
+        <br>
+        <br>
+        <label for="email">Correo Eletronico</label>
+        <input type="email" id="email">
+        <br>
+        <br>
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" required>
+        <br>
+        <br>
+        <label for="date">Fecha Nacimiento</label>
+        <input type="date" id="date" required>
+        <br>
+        <br>
+        <label for="sexo"> genero</label>
+        <br>
+        <label for="sexo_masculino" class="inline-label">Genero Masculino</label>
+        <input type="radio" id="sexo_masculino" name="genero" value="genero_masculino">
+
+        <label for="sexo_femenino" class="inline-label">Genero Femenino</label>
+        <input type="radio" id="sexo_femenino" name="genero" value="genero_femenino">
+
+        <label for="otros" class="inline-label">Otros</label>
+        <input type="radio" id="otros" name="genero" value="otros">
+      </fieldset>
+
+      <fieldset>
+        <legend>Datos del evento</legend>
+        
+        <label for="eventos">Nombre del evento</label>
+        <input type="text" id="evento" name="evento" required><br><br>
+        
+        <label for="textarea"> Comentario</label><br>
+        <textarea name="comentarios" id="textarea" rows="4" cols="50" placeholder="Escriba aqui su comentario"></textarea><br><br>
+        
+        <label for="hour"> Hora del evento</label><br>
+        <input type="time" id="hour" name="hour" required ><br><br>
+
+        <label for="lugar">Lugar del evento</label><br>
+        <select name="lugar" id="lugar" required>
+          <option value="">ninguno</option>
+          <option value="auditorio">Auditorio principal</option>
+          <option value="conferencia">Salon de conferencia</option>
+          <option value="av">Aula virtual</option>
+          <option value="jardin">jardin</option>
+        </select>
+        <br><br>
+
+        <label for="">servicio adicional</label><br>
+
+        <input type="checkbox" id="RSA1" name="servicio" value="si">
+        <label for="RSA1" class="inline-label">si</label><br>
+
+        <input type="checkbox" id="RSA2" name="servicio" value="si">
+        <label for="RSA2" class="inline-label" > no</label>
+      </fieldset><br>
+      <button  type="submit">Enviar </button>
+  </form>
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

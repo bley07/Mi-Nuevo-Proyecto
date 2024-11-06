@@ -1,0 +1,65 @@
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: darkolivegreen;
+  margin: 100px;
+  color: burlywood;
+
+}
+h1{
+  color: floralwhite;
+  text-align: center;
+  text-shadow: 2px 4px 4px  rgb(34, 49, 124);
+}
+
+form{
+  background-color: rgb(46, 46, 24);
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 0 10px rgb(32, 32, 110);
+}
+
+fieldset{
+  border: 3px solid rgb(219, 124, 124)
+  ;
+  padding: 4px;
+  margin-bottom:  20px;
+
+}
+
+legend{
+  font-weight: bold;
+  color: floralwhite;
+  text-shadow: 2px 2px 4px rgb(155, 39, 39);
+
+}
+
+label{
+  display: inline-block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: rgb(175, 175, 89);
+}
+
+input, textarea, select{
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 2px solid black;
+
+}
+
+.inline-label{
+  display: inline;
+  margin-left: 5px;
+}
+
+button{
+  padding: 9px;
+  border: 3px solid rgb(128, 214, 214);
+  background-color: bisque;
+  cursor: pointer;
+  
+}
+
+button:hover{
+  background-color: brown;
+}
